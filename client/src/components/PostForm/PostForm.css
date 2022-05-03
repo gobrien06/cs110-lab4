@@ -1,0 +1,24 @@
+.postContainer {
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px darkgray;
+    padding: 1%;
+    padding-top: 5px;
+    width: 70%;
+    margin: auto;
+}
+
+
+button {
+    background-color: lightskyblue;
+    border-radius: 10;
+    height: 3em;
+    width: 100px;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid lightgray;
+}
