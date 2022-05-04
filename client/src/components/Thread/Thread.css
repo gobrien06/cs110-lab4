@@ -1,0 +1,10 @@
+.thread {
+    border-left: 1px solid lightgrey;
+    margin-left: 5%;
+}
+
+.thread>button {
+    background: none;
+    border: none;
+    font-weight: 800;
+}
