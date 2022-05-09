@@ -5,7 +5,6 @@ import "./Chat.css";
 
 export const Chat = () => {
   const [messages, setMessages] = React.useState([]);
-  useEffect(() => console.log(messages), [messages]);
   return (
     <div className="chatContain">
       <PostForm setMessages={setMessages} />
@@ -14,6 +13,7 @@ export const Chat = () => {
           key={index}
           index={index}
           messages={msg}
+          top
         />
       ))}
     </div>
