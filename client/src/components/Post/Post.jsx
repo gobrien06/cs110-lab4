@@ -3,7 +3,6 @@ import { Thread } from "../Thread/Thread";
 import "./Post.css";
 
 export const Post = ({ message }) => {
-  console.log(message);
   return (
     <>
       {message.length > 0 ? (
