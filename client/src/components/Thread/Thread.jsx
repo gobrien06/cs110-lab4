@@ -16,7 +16,7 @@ export const Thread = ({ messages, top }) => {
         ))}
       </div>
       <button type="button" onClick={() => setReply(!reply)}>
-        <ChatImg height={30} />
+        <ChatImg height={25} />
         reply
       </button>
       {reply && <PostForm nested messages={thread} setMessages={setThread} />}
