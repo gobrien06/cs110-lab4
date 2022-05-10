@@ -1,5 +1,6 @@
 import React from "react";
 import { Thread } from "../Thread/Thread";
+import { Vote } from "../Votes/Votes"
 import "./Post.css";
 
 export const Post = ({ message }) => {
@@ -12,6 +13,7 @@ export const Post = ({ message }) => {
           <div className="post">
             <h3>{message.name}</h3>
             <p>{message.post}</p>
+            <Vote />
           </div>
         </>
       )}
