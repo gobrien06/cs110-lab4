@@ -1,0 +1,10 @@
+.vote{
+    /*
+    position: absolute;
+    right:0;
+    
+    */
+    float:right;
+    padding: 50px 0;
+    margin: auto;
+};
