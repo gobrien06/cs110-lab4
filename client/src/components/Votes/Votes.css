@@ -1,10 +1,8 @@
-.vote{
-    /*
-    position: absolute;
-    right:0;
-    
-    */
-    float:right;
+.vote {
+    right: 0;
+    float: right;
     padding: 50px 0;
-    margin: auto;
-};
+    margin-top: -5%;
+}
+
+;
